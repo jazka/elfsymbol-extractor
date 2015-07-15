@@ -1,0 +1,8 @@
+------ version 1.0.0
+
+This tool could get symbol infos from ELF SO file to help Android NDK stack symbolization.
+
+Java -jar ElfSymbolExtractor.jar <input> <arch> [<output>]
+<input> ELF SO file usually located in /project path/obj/local/armeabi/
+<arch>  CPU arch of SO file building, should be one of armeabi/armeabi-v7a/mips/x86
+<output>    Output path, current dir is default if you don't specify one
